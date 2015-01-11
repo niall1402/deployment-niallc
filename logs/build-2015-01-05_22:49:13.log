@@ -1,0 +1,13 @@
+##
+## beginning full clean deployment @ 2015-01-05_17:49:16
+##
+##
+## BUILD
+##
+Error Count: 0
+##
+## clean environment
+##
+ * Stopping web server apache2
+ * 
+ * Stopping MySQL database server mysqld

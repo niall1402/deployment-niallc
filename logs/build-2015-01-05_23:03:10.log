@@ -1,0 +1,159 @@
+##
+## beginning full clean deployment @ 2015-01-05_18:03:14
+##
+##
+## BUILD
+##
+Error Count: 0
+##
+## clean environment
+##
+ * Stopping web server apache2
+ * 
+ * Stopping MySQL database server mysqld
+   ...done.
+Ign http://security.ubuntu.com trusty-security InRelease
+Ign http://mirrors.digitalocean.com trusty InRelease
+Hit http://security.ubuntu.com trusty-security Release.gpg
+Ign http://mirrors.digitalocean.com trusty-updates InRelease
+Hit http://security.ubuntu.com trusty-security Release
+Ign http://mirrors.digitalocean.com trusty-backports InRelease
+Hit http://mirrors.digitalocean.com trusty Release.gpg
+Hit http://security.ubuntu.com trusty-security/main Sources
+Hit http://mirrors.digitalocean.com trusty-updates Release.gpg
+Hit http://security.ubuntu.com trusty-security/restricted Sources
+Hit http://mirrors.digitalocean.com trusty-backports Release.gpg
+Hit http://security.ubuntu.com trusty-security/universe Sources
+Hit http://mirrors.digitalocean.com trusty Release
+Hit http://security.ubuntu.com trusty-security/multiverse Sources
+Hit http://mirrors.digitalocean.com trusty-updates Release
+Hit http://security.ubuntu.com trusty-security/main amd64 Packages
+Hit http://mirrors.digitalocean.com trusty-backports Release
+Hit http://security.ubuntu.com trusty-security/restricted amd64 Packages
+Hit http://mirrors.digitalocean.com trusty/main Sources
+Hit http://security.ubuntu.com trusty-security/universe amd64 Packages
+Hit http://mirrors.digitalocean.com trusty/restricted Sources
+Hit http://security.ubuntu.com trusty-security/multiverse amd64 Packages
+Hit http://mirrors.digitalocean.com trusty/universe Sources
+Hit http://security.ubuntu.com trusty-security/main i386 Packages
+Hit http://mirrors.digitalocean.com trusty/multiverse Sources
+Hit http://security.ubuntu.com trusty-security/restricted i386 Packages
+Hit http://mirrors.digitalocean.com trusty/main amd64 Packages
+Hit http://security.ubuntu.com trusty-security/universe i386 Packages
+Hit http://mirrors.digitalocean.com trusty/restricted amd64 Packages
+Hit http://security.ubuntu.com trusty-security/multiverse i386 Packages
+Hit http://mirrors.digitalocean.com trusty/universe amd64 Packages
+Hit http://security.ubuntu.com trusty-security/main Translation-en
+Hit http://mirrors.digitalocean.com trusty/multiverse amd64 Packages
+Hit http://security.ubuntu.com trusty-security/multiverse Translation-en
+Hit http://mirrors.digitalocean.com trusty/main i386 Packages
+Hit http://security.ubuntu.com trusty-security/restricted Translation-en
+Hit http://mirrors.digitalocean.com trusty/restricted i386 Packages
+Hit http://security.ubuntu.com trusty-security/universe Translation-en
+Hit http://mirrors.digitalocean.com trusty/universe i386 Packages
+Hit http://mirrors.digitalocean.com trusty/multiverse i386 Packages
+Hit http://mirrors.digitalocean.com trusty/main Translation-en
+Hit http://mirrors.digitalocean.com trusty/multiverse Translation-en
+Hit http://mirrors.digitalocean.com trusty/restricted Translation-en
+Hit http://mirrors.digitalocean.com trusty/universe Translation-en
+Hit http://mirrors.digitalocean.com trusty-updates/main Sources
+Hit http://mirrors.digitalocean.com trusty-updates/restricted Sources
+Hit http://mirrors.digitalocean.com trusty-updates/universe Sources
+Hit http://mirrors.digitalocean.com trusty-updates/multiverse Sources
+Hit http://mirrors.digitalocean.com trusty-updates/main amd64 Packages
+Hit http://mirrors.digitalocean.com trusty-updates/restricted amd64 Packages
+Hit http://mirrors.digitalocean.com trusty-updates/universe amd64 Packages
+Hit http://mirrors.digitalocean.com trusty-updates/multiverse amd64 Packages
+Hit http://mirrors.digitalocean.com trusty-updates/main i386 Packages
+Hit http://mirrors.digitalocean.com trusty-updates/restricted i386 Packages
+Hit http://mirrors.digitalocean.com trusty-updates/universe i386 Packages
+Hit http://mirrors.digitalocean.com trusty-updates/multiverse i386 Packages
+Hit http://mirrors.digitalocean.com trusty-updates/main Translation-en
+Hit http://mirrors.digitalocean.com trusty-updates/multiverse Translation-en
+Hit http://mirrors.digitalocean.com trusty-updates/restricted Translation-en
+Hit http://mirrors.digitalocean.com trusty-updates/universe Translation-en
+Hit http://mirrors.digitalocean.com trusty-backports/main Sources
+Hit http://mirrors.digitalocean.com trusty-backports/restricted Sources
+Hit http://mirrors.digitalocean.com trusty-backports/universe Sources
+Hit http://mirrors.digitalocean.com trusty-backports/multiverse Sources
+Hit http://mirrors.digitalocean.com trusty-backports/main amd64 Packages
+Hit http://mirrors.digitalocean.com trusty-backports/restricted amd64 Packages
+Hit http://mirrors.digitalocean.com trusty-backports/universe amd64 Packages
+Hit http://mirrors.digitalocean.com trusty-backports/multiverse amd64 Packages
+Hit http://mirrors.digitalocean.com trusty-backports/main i386 Packages
+Hit http://mirrors.digitalocean.com trusty-backports/restricted i386 Packages
+Hit http://mirrors.digitalocean.com trusty-backports/universe i386 Packages
+Hit http://mirrors.digitalocean.com trusty-backports/multiverse i386 Packages
+Hit http://mirrors.digitalocean.com trusty-backports/main Translation-en
+Hit http://mirrors.digitalocean.com trusty-backports/multiverse Translation-en
+Hit http://mirrors.digitalocean.com trusty-backports/restricted Translation-en
+Hit http://mirrors.digitalocean.com trusty-backports/universe Translation-en
+Ign http://mirrors.digitalocean.com trusty/main Translation-en_US
+Ign http://mirrors.digitalocean.com trusty/multiverse Translation-en_US
+Ign http://mirrors.digitalocean.com trusty/restricted Translation-en_US
+Ign http://mirrors.digitalocean.com trusty/universe Translation-en_US
+ * Starting web server apache2
+ * 
+ * Starting MySQL database server mysqld
+   ...done.
+##
+## environment cleaned
+##
+##
+## create sandbox
+##
+##
+## sandbox created
+##
+##
+## check md5sum
+##
+Apache/www/
+Apache/www/index.html
+Apache/www/form.html
+md5_new: 855c267105a3a78c6750e3ba89ccb8c6  build.tgz
+md5_old: 2e47f747eed8c788960c7c4a7103b745  build.tgz
+md5 checksum has changed. proceeding with build.
+##
+## md5sum checked
+##
+##
+## copy files to apache2 root folder /var/www/html
+##
+##
+## files coppied to apache2 root folder
+##
+##
+## check dependencies
+##
+apache2 found in /usr/sbin/apache2
+mysql found in /usr/bin/mysql
+git found in /usr/bin/git
+ruby found in /usr/bin/ruby
+##
+## dependencies checked
+##
+cgi-bin/
+cgi-bin/hello_world.pl
+cgi-bin/testdb.pl
+cgi-bin/accept_form.pl
+form.html
+index.html
+##########
+There were errors during the build process: 
+Error: git
+Error: failed
+Error: to
+Error: install
+Error: ruby
+Error: failed
+Error: to
+Error: install
+Error: apache2
+Error: failed
+Error: to
+Error: install
+Error: mysql
+Error: failed
+Error: to
+Error: install

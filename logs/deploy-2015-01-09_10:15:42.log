@@ -1,0 +1,147 @@
+######################
+#  begin deployment  #
+######################
+Error Count: 0
+##
+## clean environment
+##
+Ign http://mirrors.digitalocean.com trusty InRelease
+Ign http://mirrors.digitalocean.com trusty-updates InRelease
+Ign http://mirrors.digitalocean.com trusty Release.gpg
+Ign http://mirrors.digitalocean.com trusty-updates Release.gpg
+Ign http://mirrors.digitalocean.com trusty Release
+Ign http://security.ubuntu.com trusty-security InRelease
+Ign http://mirrors.digitalocean.com trusty-updates Release
+Get:1 http://security.ubuntu.com trusty-security Release.gpg [933 B]
+Get:2 http://security.ubuntu.com trusty-security Release [62.0 kB]
+Get:3 http://security.ubuntu.com trusty-security/main Sources [59.7 kB]
+Get:4 http://security.ubuntu.com trusty-security/universe Sources [17.4 kB]
+Get:5 http://security.ubuntu.com trusty-security/main amd64 Packages [187 kB]
+Get:6 http://security.ubuntu.com trusty-security/universe amd64 Packages [82.2 kB]
+Get:7 http://security.ubuntu.com trusty-security/main i386 Packages [179 kB]
+Get:8 http://security.ubuntu.com trusty-security/universe i386 Packages [82.2 kB]
+Err http://mirrors.digitalocean.com trusty/main Sources
+  404  Not Found [IP: 192.241.164.26 80]
+Hit http://security.ubuntu.com trusty-security/main Translation-en
+Err http://mirrors.digitalocean.com trusty/universe Sources
+  404  Not Found [IP: 192.241.164.26 80]
+Err http://mirrors.digitalocean.com trusty/main amd64 Packages
+  404  Not Found [IP: 192.241.164.26 80]
+Err http://mirrors.digitalocean.com trusty/universe amd64 Packages
+  404  Not Found [IP: 192.241.164.26 80]
+Err http://mirrors.digitalocean.com trusty/main i386 Packages
+  404  Not Found [IP: 192.241.164.26 80]
+Err http://mirrors.digitalocean.com trusty/universe i386 Packages
+  404  Not Found [IP: 192.241.164.26 80]
+Ign http://mirrors.digitalocean.com trusty/main Translation-en_US
+Ign http://mirrors.digitalocean.com trusty/main Translation-en
+Ign http://mirrors.digitalocean.com trusty/universe Translation-en_US
+Hit http://security.ubuntu.com trusty-security/universe Translation-en
+Ign http://mirrors.digitalocean.com trusty/universe Translation-en
+Err http://mirrors.digitalocean.com trusty-updates/main Sources
+  404  Not Found [IP: 192.241.164.26 80]
+Err http://mirrors.digitalocean.com trusty-updates/universe Sources
+  404  Not Found [IP: 192.241.164.26 80]
+Err http://mirrors.digitalocean.com trusty-updates/main amd64 Packages
+  404  Not Found [IP: 192.241.164.26 80]
+Err http://mirrors.digitalocean.com trusty-updates/universe amd64 Packages
+  404  Not Found [IP: 192.241.164.26 80]
+Err http://mirrors.digitalocean.com trusty-updates/main i386 Packages
+  404  Not Found [IP: 192.241.164.26 80]
+Err http://mirrors.digitalocean.com trusty-updates/universe i386 Packages
+  404  Not Found [IP: 192.241.164.26 80]
+Ign http://mirrors.digitalocean.com trusty-updates/main Translation-en_US
+Ign http://mirrors.digitalocean.com trusty-updates/main Translation-en
+Ign http://mirrors.digitalocean.com trusty-updates/universe Translation-en_US
+Ign http://mirrors.digitalocean.com trusty-updates/universe Translation-en
+Fetched 670 kB in 0s (904 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'apache2' is not installed, so not removed
+The following packages were automatically installed and are no longer required:
+  linux-headers-3.13.0-32 linux-headers-3.13.0-32-generic
+  linux-headers-3.13.0-36 linux-headers-3.13.0-36-generic
+  linux-image-3.13.0-32-generic linux-image-3.13.0-36-generic
+  linux-image-extra-3.13.0-32-generic linux-image-extra-3.13.0-36-generic
+Use 'apt-get autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ apache2 : Depends: apache2-bin (= 2.4.7-1ubuntu4.1) but it is not going to be installed
+           Recommends: ssl-cert but it is not installable
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'mysql-client' is not installed, so not removed
+Package 'mysql-server' is not installed, so not removed
+The following packages were automatically installed and are no longer required:
+  linux-headers-3.13.0-32 linux-headers-3.13.0-32-generic
+  linux-headers-3.13.0-36 linux-headers-3.13.0-36-generic
+  linux-image-3.13.0-32-generic linux-image-3.13.0-36-generic
+  linux-image-extra-3.13.0-32-generic linux-image-extra-3.13.0-36-generic
+Use 'apt-get autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ mysql-client : Depends: mysql-client-5.5 but it is not going to be installed
+ mysql-server : Depends: mysql-server-5.5 but it is not going to be installed
+##
+## environment cleaned
+##
+##
+## create sandbox
+##
+##
+## sandbox created
+##
+##
+## copy files to apache2 root folder /var/www/html
+##
+##
+## files coppied to apache2 root folder
+##
+##
+## check dependencies
+##
+apache2 does not exist. Aborting process...
+mysql does not exist. Aborting process...
+git does not exist. Aborting process...
+ruby does not exist. Aborting process...
+##
+## dependencies checked
+##
+##
+## WEBSITE SUCCESSFULLY DEPLOYED
+##
+##
+## BEGIN MONITORING DEPLOYMENT SERVER
+##

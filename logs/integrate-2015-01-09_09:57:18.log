@@ -1,0 +1,290 @@
+##
+## INTEGRATE
+##
+Error Count: 0
+##
+## clean environment
+##
+ * Stopping web server apache2
+ * 
+ * Stopping MySQL database server mysqld
+   ...done.
+Ign http://mirrors.digitalocean.com trusty InRelease
+Ign http://mirrors.digitalocean.com trusty-updates InRelease
+Ign http://mirrors.digitalocean.com trusty-backports InRelease
+Hit http://mirrors.digitalocean.com trusty Release.gpg
+Hit http://mirrors.digitalocean.com trusty-updates Release.gpg
+Hit http://mirrors.digitalocean.com trusty-backports Release.gpg
+Hit http://mirrors.digitalocean.com trusty Release
+Hit http://mirrors.digitalocean.com trusty-updates Release
+Hit http://mirrors.digitalocean.com trusty-backports Release
+Ign http://security.ubuntu.com trusty-security InRelease
+Hit http://mirrors.digitalocean.com trusty/main Sources
+Get:1 http://security.ubuntu.com trusty-security Release.gpg [933 B]
+Hit http://mirrors.digitalocean.com trusty/restricted Sources
+Hit http://mirrors.digitalocean.com trusty/universe Sources
+Hit http://mirrors.digitalocean.com trusty/multiverse Sources
+Hit http://mirrors.digitalocean.com trusty/main amd64 Packages
+Hit http://mirrors.digitalocean.com trusty/restricted amd64 Packages
+Hit http://mirrors.digitalocean.com trusty/universe amd64 Packages
+Hit http://mirrors.digitalocean.com trusty/multiverse amd64 Packages
+Hit http://mirrors.digitalocean.com trusty/main i386 Packages
+Hit http://mirrors.digitalocean.com trusty/restricted i386 Packages
+Get:2 http://security.ubuntu.com trusty-security Release [62.0 kB]
+Hit http://mirrors.digitalocean.com trusty/universe i386 Packages
+Hit http://mirrors.digitalocean.com trusty/multiverse i386 Packages
+Hit http://mirrors.digitalocean.com trusty/main Translation-en
+Hit http://mirrors.digitalocean.com trusty/multiverse Translation-en
+Hit http://mirrors.digitalocean.com trusty/restricted Translation-en
+Hit http://mirrors.digitalocean.com trusty/universe Translation-en
+Hit http://mirrors.digitalocean.com trusty-updates/main Sources
+Hit http://mirrors.digitalocean.com trusty-updates/restricted Sources
+Get:3 http://security.ubuntu.com trusty-security/main Sources [59.7 kB]
+Hit http://mirrors.digitalocean.com trusty-updates/universe Sources
+Hit http://mirrors.digitalocean.com trusty-updates/multiverse Sources
+Hit http://mirrors.digitalocean.com trusty-updates/main amd64 Packages
+Hit http://mirrors.digitalocean.com trusty-updates/restricted amd64 Packages
+Hit http://mirrors.digitalocean.com trusty-updates/universe amd64 Packages
+Hit http://mirrors.digitalocean.com trusty-updates/multiverse amd64 Packages
+Get:4 http://security.ubuntu.com trusty-security/restricted Sources [2,061 B]
+Get:5 http://security.ubuntu.com trusty-security/universe Sources [17.4 kB]
+Hit http://mirrors.digitalocean.com trusty-updates/main i386 Packages
+Hit http://mirrors.digitalocean.com trusty-updates/restricted i386 Packages
+Hit http://mirrors.digitalocean.com trusty-updates/universe i386 Packages
+Hit http://mirrors.digitalocean.com trusty-updates/multiverse i386 Packages
+Get:6 http://security.ubuntu.com trusty-security/multiverse Sources [719 B]
+Hit http://mirrors.digitalocean.com trusty-updates/main Translation-en
+Hit http://mirrors.digitalocean.com trusty-updates/multiverse Translation-en
+Hit http://mirrors.digitalocean.com trusty-updates/restricted Translation-en
+Hit http://mirrors.digitalocean.com trusty-updates/universe Translation-en
+Hit http://mirrors.digitalocean.com trusty-backports/main Sources
+Hit http://mirrors.digitalocean.com trusty-backports/restricted Sources
+Hit http://mirrors.digitalocean.com trusty-backports/universe Sources
+Hit http://mirrors.digitalocean.com trusty-backports/multiverse Sources
+Hit http://mirrors.digitalocean.com trusty-backports/main amd64 Packages
+Hit http://mirrors.digitalocean.com trusty-backports/restricted amd64 Packages
+Hit http://mirrors.digitalocean.com trusty-backports/universe amd64 Packages
+Hit http://mirrors.digitalocean.com trusty-backports/multiverse amd64 Packages
+Get:7 http://security.ubuntu.com trusty-security/main amd64 Packages [187 kB]
+Hit http://mirrors.digitalocean.com trusty-backports/main i386 Packages
+Hit http://mirrors.digitalocean.com trusty-backports/restricted i386 Packages
+Hit http://mirrors.digitalocean.com trusty-backports/universe i386 Packages
+Hit http://mirrors.digitalocean.com trusty-backports/multiverse i386 Packages
+Hit http://mirrors.digitalocean.com trusty-backports/main Translation-en
+Get:8 http://security.ubuntu.com trusty-security/restricted amd64 Packages [8,875 B]
+Hit http://mirrors.digitalocean.com trusty-backports/multiverse Translation-en
+Hit http://mirrors.digitalocean.com trusty-backports/restricted Translation-en
+Hit http://mirrors.digitalocean.com trusty-backports/universe Translation-en
+Get:9 http://security.ubuntu.com trusty-security/universe amd64 Packages [82.2 kB]
+Ign http://mirrors.digitalocean.com trusty/main Translation-en_US
+Ign http://mirrors.digitalocean.com trusty/multiverse Translation-en_US
+Ign http://mirrors.digitalocean.com trusty/restricted Translation-en_US
+Get:10 http://security.ubuntu.com trusty-security/multiverse amd64 Packages [1,157 B]
+Get:11 http://security.ubuntu.com trusty-security/main i386 Packages [179 kB]
+Ign http://mirrors.digitalocean.com trusty/universe Translation-en_US
+Get:12 http://security.ubuntu.com trusty-security/restricted i386 Packages [8,846 B]
+Get:13 http://security.ubuntu.com trusty-security/universe i386 Packages [82.2 kB]
+Get:14 http://security.ubuntu.com trusty-security/multiverse i386 Packages [1,409 B]
+Hit http://security.ubuntu.com trusty-security/main Translation-en
+Hit http://security.ubuntu.com trusty-security/multiverse Translation-en
+Hit http://security.ubuntu.com trusty-security/restricted Translation-en
+Hit http://security.ubuntu.com trusty-security/universe Translation-en
+Fetched 693 kB in 5s (135 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  git-man liberror-perl linux-headers-3.13.0-36
+  linux-headers-3.13.0-36-generic linux-image-3.13.0-36-generic
+  linux-image-extra-3.13.0-36-generic
+Use 'apt-get autoremove' to remove them.
+The following packages will be REMOVED:
+  git
+0 upgraded, 0 newly installed, 1 to remove and 66 not upgraded.
+After this operation, 20.2 MB disk space will be freed.
+(Reading database ... 139300 files and directories currently installed.)
+Removing git (1:1.9.1-1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  linux-headers-3.13.0-36 linux-headers-3.13.0-36-generic
+  linux-image-3.13.0-36-generic linux-image-extra-3.13.0-36-generic
+Use 'apt-get autoremove' to remove them.
+Suggested packages:
+  git-daemon-run git-daemon-sysvinit git-doc git-el git-email git-gui gitk
+  gitweb git-arch git-bzr git-cvs git-mediawiki git-svn
+The following NEW packages will be installed:
+  git
+0 upgraded, 1 newly installed, 0 to remove and 66 not upgraded.
+Need to get 0 B/2,555 kB of archives.
+After this operation, 20.2 MB of additional disk space will be used.
+Selecting previously unselected package git.
+(Reading database ... 138725 files and directories currently installed.)
+Preparing to unpack .../git_1%3a1.9.1-1_amd64.deb ...
+Unpacking git (1:1.9.1-1) ...
+Setting up git (1:1.9.1-1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  fontconfig-config fonts-dejavu-core gcc gcc-4.8 libasan0 libatomic1
+  libc-dev-bin libc6-dev libfontconfig1 libgcc-4.8-dev libgomp1 libitm1
+  libquadmath0 libruby1.9.1 libruby1.9.1-dbg libtcl8.5 libtcltk-ruby1.9.1
+  libtk8.5 libtsan0 libxft2 libxrender1 libxss1 linux-headers-3.13.0-36
+  linux-headers-3.13.0-36-generic linux-image-3.13.0-36-generic
+  linux-image-extra-3.13.0-36-generic linux-libc-dev manpages-dev ri1.9.1 ruby
+  ruby1.9.1 ruby1.9.1-dev ruby1.9.1-examples ruby1.9.1-full x11-common
+Use 'apt-get autoremove' to remove them.
+The following packages will be REMOVED:
+  ruby-full
+0 upgraded, 0 newly installed, 1 to remove and 66 not upgraded.
+After this operation, 31.7 kB disk space will be freed.
+(Reading database ... 139300 files and directories currently installed.)
+Removing ruby-full (1:1.9.3.4) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  linux-headers-3.13.0-36 linux-headers-3.13.0-36-generic
+  linux-image-3.13.0-36-generic linux-image-extra-3.13.0-36-generic
+Use 'apt-get autoremove' to remove them.
+The following NEW packages will be installed:
+  ruby-full
+0 upgraded, 1 newly installed, 0 to remove and 66 not upgraded.
+Need to get 0 B/4,584 B of archives.
+After this operation, 31.7 kB of additional disk space will be used.
+Selecting previously unselected package ruby-full.
+(Reading database ... 139296 files and directories currently installed.)
+Preparing to unpack .../ruby-full_1%3a1.9.3.4_all.deb ...
+Unpacking ruby-full (1:1.9.3.4) ...
+Setting up ruby-full (1:1.9.3.4) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apache2-bin apache2-data libapr1 libaprutil1 libaprutil1-dbd-sqlite3
+  libaprutil1-ldap linux-headers-3.13.0-36 linux-headers-3.13.0-36-generic
+  linux-image-3.13.0-36-generic linux-image-extra-3.13.0-36-generic ssl-cert
+Use 'apt-get autoremove' to remove them.
+The following packages will be REMOVED:
+  apache2
+0 upgraded, 0 newly installed, 1 to remove and 66 not upgraded.
+After this operation, 473 kB disk space will be freed.
+(Reading database ... 139300 files and directories currently installed.)
+Removing apache2 (2.4.7-1ubuntu4.1) ...
+ * Stopping web server apache2
+ * 
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Processing triggers for ufw (0.34~rc-0ubuntu2) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  linux-headers-3.13.0-36 linux-headers-3.13.0-36-generic
+  linux-image-3.13.0-36-generic linux-image-extra-3.13.0-36-generic
+Use 'apt-get autoremove' to remove them.
+Suggested packages:
+  apache2-doc apache2-suexec-pristine apache2-suexec-custom apache2-utils
+The following NEW packages will be installed:
+  apache2
+0 upgraded, 1 newly installed, 0 to remove and 66 not upgraded.
+Need to get 0 B/87.5 kB of archives.
+After this operation, 473 kB of additional disk space will be used.
+Selecting previously unselected package apache2.
+(Reading database ... 139260 files and directories currently installed.)
+Preparing to unpack .../apache2_2.4.7-1ubuntu4.1_amd64.deb ...
+Unpacking apache2 (2.4.7-1ubuntu4.1) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Processing triggers for ureadahead (0.100.0-16) ...
+Processing triggers for ufw (0.34~rc-0ubuntu2) ...
+Setting up apache2 (2.4.7-1ubuntu4.1) ...
+ * Restarting web server apache2
+   ...done.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  libaio1 libdbd-mysql-perl libdbi-perl libhtml-template-perl libmysqlclient18
+  libterm-readkey-perl linux-headers-3.13.0-36 linux-headers-3.13.0-36-generic
+  linux-image-3.13.0-36-generic linux-image-extra-3.13.0-36-generic
+  mysql-client-5.5 mysql-client-core-5.5 mysql-common mysql-server-5.5
+  mysql-server-core-5.5
+Use 'apt-get autoremove' to remove them.
+The following packages will be REMOVED:
+  mysql-client mysql-server
+0 upgraded, 0 newly installed, 2 to remove and 66 not upgraded.
+After this operation, 252 kB disk space will be freed.
+(Reading database ... 139300 files and directories currently installed.)
+Removing mysql-client (5.5.40-0ubuntu0.14.04.1) ...
+Removing mysql-server (5.5.40-0ubuntu0.14.04.1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  linux-headers-3.13.0-36 linux-headers-3.13.0-36-generic
+  linux-image-3.13.0-36-generic linux-image-extra-3.13.0-36-generic
+Use 'apt-get autoremove' to remove them.
+The following NEW packages will be installed:
+  mysql-client mysql-server
+0 upgraded, 2 newly installed, 0 to remove and 66 not upgraded.
+Need to get 0 B/24.7 kB of archives.
+After this operation, 252 kB of additional disk space will be used.
+Selecting previously unselected package mysql-client.
+(Reading database ... 139292 files and directories currently installed.)
+Preparing to unpack .../mysql-client_5.5.40-0ubuntu0.14.04.1_all.deb ...
+Unpacking mysql-client (5.5.40-0ubuntu0.14.04.1) ...
+Selecting previously unselected package mysql-server.
+Preparing to unpack .../mysql-server_5.5.40-0ubuntu0.14.04.1_all.deb ...
+Unpacking mysql-server (5.5.40-0ubuntu0.14.04.1) ...
+Setting up mysql-client (5.5.40-0ubuntu0.14.04.1) ...
+Setting up mysql-server (5.5.40-0ubuntu0.14.04.1) ...
+ * Starting web server apache2
+ * 
+ * Starting MySQL database server mysqld
+   ...done.
+##
+## environment cleaned
+##
+##
+## create sandbox
+##
+cgi-bin/
+cgi-bin/hello_world.pl
+cgi-bin/testdb.pl
+cgi-bin/accept_form.pl
+form.html
+index.html
+##
+## sandbox created
+##
+##
+## copy files to apache2 root folder /var/www/html
+##
+Module cgid already enabled
+ * Restarting web server apache2
+   ...done.
+##
+## files coppied to apache2 root folder
+##
+##
+## check dependencies
+##
+apache2 found in /usr/sbin/apache2
+mysql found in /usr/bin/mysql
+git found in /usr/bin/git
+ruby found in /usr/bin/ruby
+##
+## dependencies checked
+##
+build_finished.tgz
+cgi-bin/
+cgi-bin/hello_world.pl
+cgi-bin/testdb.pl
+cgi-bin/accept_form.pl
+form.html
+index.html
+##########
+# The INTEGRATE process was successful. Proceeding to TEST process
+##########
